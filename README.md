@@ -7,7 +7,8 @@ Bloc's API provides an external facing JSON Web Token authorized gateway to the 
       ~/p/kele ❯❯❯ irb
        > require './lib/kele.rb'
        => true
-      > Kele.new("jane@gmail.com", "abc123")
+      > kele_client = Kele.new("jane@gmail.com", "abc123")
+      > kele_client.get_me
 
 
 ## API Reference
