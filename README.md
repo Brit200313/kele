@@ -15,6 +15,8 @@ Bloc's API provides an external facing JSON Web Token authorized gateway to the 
       >> kele_client.get_roadmap(roadmap_id)
       >> checkpoint_id = 99
       >> kele_client.get_checkpoint(checkpoint_id)
+      >> kele_client.get_messages(1)
+
 
 ## API Reference
 
