@@ -21,3 +21,4 @@ Bloc's API provides an external facing JSON Web Token authorized gateway to the 
 ## API Reference
 
 Bloc's base API URL: https://www.bloc.io/api/v1
+API documentation: http://docs.blocapi.apiary.io/

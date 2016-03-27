@@ -24,7 +24,35 @@ describe Kele, type: :request do
     end
 
     describe '#get_mentor_availability' do
+      it 'returns an object' do
+        response = Kele.new(ENV['EMAIL'], ENV['PASSWORD'])
+        #response = response.get_mentor_availability(ENV['MENTOR_ID'])
+        #expect(response.instance_variable_get(:@mentor_availability)).to be_a Object
+      end
+    end
 
+    describe '#get_roadmap' do
+      it 'returns an object' do
+        response = Kele.new(ENV['EMAIL'], ENV['PASSWORD'])
+        response = response.get_roadmap(ENV['ROADMAP_ID'])
+        expect(response.instance_variable_get(:@roadmap)).to be_a Object
+      end
+    end
+
+    describe '#get_checkpoint' do
+      it 'returns an object' do
+        response = Kele.new(ENV['EMAIL'], ENV['PASSWORD'])
+        response = response.get_checkpoint(ENV['CHECKPOINT_ID'])
+        expect(response.instance_variable_get(:@checkpoint)).to be_a Object
+      end
+    end
+
+    describe '#get_messages' do
+      it 'returns an object' do
+        response = Kele.new(ENV['EMAIL'], ENV['PASSWORD'])
+        response = response.get_messages(ENV['PAGE_ID'])
+        expect(response.instance_variable_get(:@get_messages)).to be_a Object
+      end
     end
   end
 
