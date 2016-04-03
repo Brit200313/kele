@@ -1,0 +1,126 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://www.bloc.io/api/v<PAGE_ID>/sessions
+    body:
+      encoding: UTF-8
+      string: email=<EMAIL>&password=<PASSWORD>
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sun, 03 Apr 20<PAGE_ID>6 23:32:<PAGE_ID>4 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=3<PAGE_ID>536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - "<PAGE_ID>; mode=block"
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - '"4eb59a0fb0<PAGE_ID><PAGE_ID>c070dcc<PAGE_ID>c6c5fa8<PAGE_ID>0a36"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - XSRF-TOKEN=5XIDaqMqYnJ%2FSApHCrE5ScGAyyEXj5Z9Wnv6SUudxSY%3D; path=/; secure
+      - _BlocAlpha_session2=K2grRzZpNzMvNlN4ZlpmSkFQNXY<PAGE_ID>RS9wV<PAGE_ID>lHbzdWSG4xVjRpV0ExeUVuSFVLM2VOT2l0MjFoc2dDbGlzYjdNcUJzbFVtSWVOVDg3ckxIcHpqRlgzWWFiSU<PAGE_ID>kNlJTbGUyUm5CU2JnSGxLWTFQYjFqRVg5cGJ6UE<PAGE_ID>saHQ4aEk<PAGE_ID>ZkcwdkVXUk9pUEk0VUVKZW9jb0UwcE5RRzBTTjVYbkZCY0hiTFZBUmxLekVTZ2ZzWDdKaUVFRFZBYVNTVUhrSTN4LS<PAGE_ID>3SG<PAGE_ID>sM0<PAGE_ID>xblFQMTJHb0lIR2s<PAGE_ID>TFdRPT0%3D--dcd020504584728fe9f943b5dc8d5a<PAGE_ID>c86abe843;
+        path=/; secure; HttpOnly
+      - ahoy_track=true; path=/; secure
+      - ahoy_visit=949fbc00-c2ed-474a-8072-d853dda4255c; path=/; expires=Mon, 04 Apr
+        20<PAGE_ID>6 03:32:<PAGE_ID>5 -0000; secure
+      - ahoy_visitor=87ad99fa-<PAGE_ID>99f-4fed-bc<PAGE_ID>6-<PAGE_ID>b2b6406<PAGE_ID>a9b;
+        path=/; expires=Tue, 03 Apr 20<PAGE_ID>8 23:32:<PAGE_ID>5 -0000; secure
+      X-Request-Id:
+      - 5fac4fd7-aeb9-4a8<PAGE_ID>-9d4<PAGE_ID>-c826c<PAGE_ID>54c0f2
+      X-Runtime:
+      - '0.099324'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - "<PAGE_ID>.<PAGE_ID> vegur"
+    body:
+      encoding: UTF-8
+      string: '{"auth_token":"eyJ0eXAiOiJKV<PAGE_ID>QiLCJhbGciOiJIUzI<PAGE_ID>NiJ9.eyJhcGlfa2V5IjoiMmM2NWMyNDUzZDU2NDU0NGE4YzFmOGNkZWFkMGUwYWIiLCJ<PAGE_ID>c2VyX2lkIjo2MjM5NjcsIm5hbWUiOiJCcml0dGFueSBNYXJ0aW4ifQ.z6_j2Xl9iHXn3PapaG5oSxWP_ujQjBwGXFb2rWPX5n8","user":{"id":<MENTOR_ID>,"email":"brittany.jill.martin@gmail.com","created_at":"20<PAGE_ID>3-<PAGE_ID>0-25T<PAGE_ID>4:55:02.967-07:00","updated_at":"20<PAGE_ID>6-04-03T<PAGE_ID>6:32:<PAGE_ID>5.05<PAGE_ID>-07:00","facebook_id":"<PAGE_ID>4203<PAGE_ID>52","first_name":"Brittany","last_name":"Martin","role":"mentor","stripe_customer_id":"cus_2oxcRgjchBMuGM","twitter_handle":"BrittJMartin","skype_handle":"Brit2003<PAGE_ID>3","github_handle":"Brit2003<PAGE_ID>3","time_zone":"Eastern
+        Time (US \u0026 Canada)","bio":"Brittany is the Product Marketing Manager
+        at a startup in San Francisco. Her job is to partner with college engineering
+        student leaders to make a software product that helps them succeed with hackathons,
+        career fairs and student organizations.\r\n\r\nShe just completed her MBA
+        at Robert Morris University. She recently moved to San Francisco from her
+        hometown, Pittsburgh, PA. She aspires to run her own startup one day and knows
+        San Francisco will be a great tech bootcamp. \r\n\r\nHer boyfriend is an independent
+        filmmaker and she has a lovable chocolate lab named after a James Bond actor.\r\n\r\nShe
+        wants to learn web development so she can compete at hackathons and have her
+        own startup one day. \r\n\r\nBlog: sfviapgh.com","photo_file_name":"unnamed.jpg","photo_content_type":"image/jpeg","photo_file_size":375043,"photo_updated_at":"20<PAGE_ID>5-0<PAGE_ID>-24T<PAGE_ID>6:3<PAGE_ID>:<PAGE_ID>8.003-08:00","tos":"accepted","send_new_message_emails":true,"referred_by_id":null,"slug":"brittany-martin","os":"Mac
+        OS X","last_seen_at":"20<PAGE_ID>6-04-03T<PAGE_ID>6:32:<PAGE_ID>5.009-07:00","private_profile":true,"google_plus_id":"<PAGE_ID>080<PAGE_ID>0250028385663677","linkedin":null,"quota":5,"old_first_visit_id":null,"selected_enrollment_chain_id":2752,"phone_num":null,"title":null,"quota_limit":5,"dribbble_handle":null,"codecademy_handle":null,"student_profile_id":null,"birthdate":null,"gender":null,"first_visit_id":null,"codewars_handle":null}}'
+    http_version: 
+  recorded_at: Sun, 03 Apr 2016 23:32:15 GMT
+- request:
+    method: get
+    uri: https://www.bloc.io/api/v<PAGE_ID>/checkpoints/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - eyJ0eXAiOiJKV<PAGE_ID>QiLCJhbGciOiJIUzI<PAGE_ID>NiJ9.eyJhcGlfa2V5IjoiMmM2NWMyNDUzZDU2NDU0NGE4YzFmOGNkZWFkMGUwYWIiLCJ<PAGE_ID>c2VyX2lkIjo2MjM5NjcsIm5hbWUiOiJCcml0dGFueSBNYXJ0aW4ifQ.z6_j2Xl9iHXn3PapaG5oSxWP_ujQjBwGXFb2rWPX5n8
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sun, 03 Apr 20<PAGE_ID>6 23:32:<PAGE_ID>5 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=3<PAGE_ID>536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - "<PAGE_ID>; mode=block"
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+      Set-Cookie:
+      - XSRF-TOKEN=u4ok2oRiY%2BRmBFyC5rZbbtgzFGOGBNOH7HhZRpEWCbo%3D; path=/; secure
+      - _BlocAlpha_session2=U<PAGE_ID>psZUZzaWFwZ<PAGE_ID>A3TUZOcFhvWllqWVVWY0RYUjVNYldCbEVHTm52cFJDdjV4RGRZOWxTRDRIcy9oTkpwa25jSkNNNkl0YWJlR0JPOGJPdUdHaVR<PAGE_ID>Y2VXT25iVU<PAGE_ID>ObWloN<PAGE_ID>hnb2trcHJkRWdwVExNcmdLYytDTUxYTFg4a0dtWUhpZ<PAGE_ID>laOTF4Yml4c3VucU5Tbmh0TGVOWndlc2NWNTFBOXhySFlETmpGYjR3YndmQncxQ<PAGE_ID>QrTEpIa00<PAGE_ID>Z<PAGE_ID>pVOHVLM0xrekozS3kyTDRTd<PAGE_ID>dmaEN5dXNHaXFMV2RGRTlDT3dTaThTVml3VVlVRjdzTVJyOXR2b0MvbmlXMWdNeXdEYW9LZ<PAGE_ID>JlMWZBZDRjUHVoUUN3RDJtemc9PS0tTGFUYkJMZk5FVHZJQkx3c0<PAGE_ID>KR25xdz09--cbd7a8300ce753d<PAGE_ID>2b54d<PAGE_ID>7b780f2a5<PAGE_ID>36388d9b;
+        path=/; secure; HttpOnly
+      - ahoy_track=true; path=/; secure
+      - ahoy_visit=e5f3d0e<PAGE_ID>-<PAGE_ID>eba-4384-9<PAGE_ID>27-8<PAGE_ID>69<PAGE_ID>06c984d;
+        path=/; expires=Mon, 04 Apr 20<PAGE_ID>6 03:32:<PAGE_ID>5 -0000; secure
+      - ahoy_visitor=2333efad-29da-488f-96df-c6d7072b<PAGE_ID>7<PAGE_ID>c; path=/;
+        expires=Tue, 03 Apr 20<PAGE_ID>8 23:32:<PAGE_ID>5 -0000; secure
+      X-Request-Id:
+      - 5<PAGE_ID>592<PAGE_ID>0e-2e58-46b5-970<PAGE_ID>-7f09240b6a25
+      X-Runtime:
+      - '0.084369'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - "<PAGE_ID>.<PAGE_ID> vegur"
+    body:
+      encoding: UTF-8
+      string: '{"message":"Resource not found"}'
+    http_version: 
+  recorded_at: Sun, 03 Apr 2016 23:32:15 GMT
+recorded_with: VCR 3.0.1

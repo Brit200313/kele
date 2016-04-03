@@ -1,0 +1,149 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://www.bloc.io/api/v<PAGE_ID>/sessions
+    body:
+      encoding: UTF-8
+      string: email=<EMAIL>&password=<PASSWORD>
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sun, 03 Apr 20<PAGE_ID>6 23:32:<PAGE_ID>4 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=3<PAGE_ID>536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - "<PAGE_ID>; mode=block"
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - '"eb7e7c895e86975692543b9e824<PAGE_ID>3b8<PAGE_ID>"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - XSRF-TOKEN=6Pi<PAGE_ID>0YQOK%2Brx7<PAGE_ID>Ljpd6A2irehdquASMYbfnqvH5jYtg%3D;
+        path=/; secure
+      - _BlocAlpha_session2=RFY<PAGE_ID>R0ZoNldVN2JSL0NlNkJlT3dqbi80UjBvSmhYNE<PAGE_ID>ET040TGE5bUsrSlQ3WTJwbS9QdVdQUk9zc3F3TDVNWmhDbWt0NzlmWGxNdG<PAGE_ID>5a2ZEQTEwZXNCTHhuMGIzcVpXdXY5RmZLeWU0azdOMTZIUm5tTUtwNWtEUjIwb<PAGE_ID>BsOUw5bXZnOGY5VitQK2tDMkgvU0hDTDRMRGxSY3QrUjZLUDQ2UkFVQTh5MWUya<PAGE_ID>hkREtZUjVSeWphZXo5K2N3YXVnLS<PAGE_ID>lMzVZYUVoSXE<PAGE_ID>TkV0YktIdUtwM3hnPT0%3D--4eb3892dc525d56bcb5fb8e59799739dc30ebf44;
+        path=/; secure; HttpOnly
+      - ahoy_track=true; path=/; secure
+      - ahoy_visit=425872b<PAGE_ID>-f235-4bd3-b4<PAGE_ID>b-a0f3979f0cf5; path=/; expires=Mon,
+        04 Apr 20<PAGE_ID>6 03:32:<PAGE_ID>5 -0000; secure
+      - ahoy_visitor=6f27466d-cdd6-4943-9<PAGE_ID>cc-5b52f4d0ea9c; path=/; expires=Tue,
+        03 Apr 20<PAGE_ID>8 23:32:<PAGE_ID>5 -0000; secure
+      X-Request-Id:
+      - 6294b6b0-c407-4695-9<PAGE_ID>43-64<PAGE_ID>0db9e0b58
+      X-Runtime:
+      - '0.096998'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - "<PAGE_ID>.<PAGE_ID> vegur"
+    body:
+      encoding: UTF-8
+      string: '{"auth_token":"eyJ0eXAiOiJKV<PAGE_ID>QiLCJhbGciOiJIUzI<PAGE_ID>NiJ9.eyJhcGlfa2V5IjoiMmM2NWMyNDUzZDU2NDU0NGE4YzFmOGNkZWFkMGUwYWIiLCJ<PAGE_ID>c2VyX2lkIjo2MjM5NjcsIm5hbWUiOiJCcml0dGFueSBNYXJ0aW4ifQ.z6_j2Xl9iHXn3PapaG5oSxWP_ujQjBwGXFb2rWPX5n8","user":{"id":<MENTOR_ID>,"email":"brittany.jill.martin@gmail.com","created_at":"20<PAGE_ID>3-<PAGE_ID>0-25T<PAGE_ID>7:55:02.967-04:00","updated_at":"20<PAGE_ID>6-04-03T<PAGE_ID>9:32:<PAGE_ID>5.5<PAGE_ID>0-04:00","facebook_id":"<PAGE_ID>4203<PAGE_ID>52","first_name":"Brittany","last_name":"Martin","role":"mentor","stripe_customer_id":"cus_2oxcRgjchBMuGM","twitter_handle":"BrittJMartin","skype_handle":"Brit2003<PAGE_ID>3","github_handle":"Brit2003<PAGE_ID>3","time_zone":"Eastern
+        Time (US \u0026 Canada)","bio":"Brittany is the Product Marketing Manager
+        at a startup in San Francisco. Her job is to partner with college engineering
+        student leaders to make a software product that helps them succeed with hackathons,
+        career fairs and student organizations.\r\n\r\nShe just completed her MBA
+        at Robert Morris University. She recently moved to San Francisco from her
+        hometown, Pittsburgh, PA. She aspires to run her own startup one day and knows
+        San Francisco will be a great tech bootcamp. \r\n\r\nHer boyfriend is an independent
+        filmmaker and she has a lovable chocolate lab named after a James Bond actor.\r\n\r\nShe
+        wants to learn web development so she can compete at hackathons and have her
+        own startup one day. \r\n\r\nBlog: sfviapgh.com","photo_file_name":"unnamed.jpg","photo_content_type":"image/jpeg","photo_file_size":375043,"photo_updated_at":"20<PAGE_ID>5-0<PAGE_ID>-24T<PAGE_ID>9:3<PAGE_ID>:<PAGE_ID>8.003-05:00","tos":"accepted","send_new_message_emails":true,"referred_by_id":null,"slug":"brittany-martin","os":"Mac
+        OS X","last_seen_at":"20<PAGE_ID>6-04-03T<PAGE_ID>9:32:<PAGE_ID>5.469-04:00","private_profile":true,"google_plus_id":"<PAGE_ID>080<PAGE_ID>0250028385663677","linkedin":null,"quota":5,"old_first_visit_id":null,"selected_enrollment_chain_id":2752,"phone_num":null,"title":null,"quota_limit":5,"dribbble_handle":null,"codecademy_handle":null,"student_profile_id":null,"birthdate":null,"gender":null,"first_visit_id":null,"codewars_handle":null}}'
+    http_version: 
+  recorded_at: Sun, 03 Apr 2016 23:32:15 GMT
+- request:
+    method: get
+    uri: https://www.bloc.io/api/v<PAGE_ID>/message_threads?page=<PAGE_ID>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - eyJ0eXAiOiJKV<PAGE_ID>QiLCJhbGciOiJIUzI<PAGE_ID>NiJ9.eyJhcGlfa2V5IjoiMmM2NWMyNDUzZDU2NDU0NGE4YzFmOGNkZWFkMGUwYWIiLCJ<PAGE_ID>c2VyX2lkIjo2MjM5NjcsIm5hbWUiOiJCcml0dGFueSBNYXJ0aW4ifQ.z6_j2Xl9iHXn3PapaG5oSxWP_ujQjBwGXFb2rWPX5n8
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sun, 03 Apr 20<PAGE_ID>6 23:32:<PAGE_ID>5 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=3<PAGE_ID>536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - "<PAGE_ID>; mode=block"
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - '"e39f4486603f48a86622eafe7536e2df"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - XSRF-TOKEN=MF%2FOg2aemF0q3n%2FUJJL9wLwIqaZ6Z5rgZflOyVHQZR0%3D; path=/; secure
+      - _BlocAlpha_session2=MHV2Qzh<PAGE_ID>QzJueFlJanVjRzIzS<PAGE_ID>NGV2VDRlh<PAGE_ID>NnI<PAGE_ID>dHhuYitaUmVheTc2ODhZMm<PAGE_ID>mK3VsZGVMdFJSZmZtMXNVTDRHd20wTm9QRHVBbVlESGdqb<PAGE_ID>JaM3dXN0F3Z0YwR3ozd05tVTVQRjlZWUh3N2YvNVdQemN2bVRxc3NOdy9kWUx3Q0hBemh<PAGE_ID>SW9oSG8rdWxQcDdoVmFxcjFIbDNyL2N<PAGE_ID>YzNOT0hZSnlGbUxZRzN6VUp3eHozbkZ6Qm93UFVPRUM2TURZemNUbVRNN3BhbHZON3NySG9MVE<PAGE_ID>0RXM0MTh0RmpwUmlJYTlYU0xOUDhYQnQ3bDE5bzFFNmViUnpqdkxaZVdvYlMxeVdPSjZqU0czL2RreUdISUE9PS0tc3dMVm5qU<PAGE_ID>RiaUozUDFxSWY<PAGE_ID>bC9FUT09--8399b963b3ce95fbe<PAGE_ID>b2846c833b7a982d8bd68e;
+        path=/; secure; HttpOnly
+      - ahoy_track=true; path=/; secure
+      - ahoy_visit=eb047885-26<PAGE_ID>f-46d4-9bf0-f7c3e08079b6; path=/; expires=Mon,
+        04 Apr 20<PAGE_ID>6 03:32:<PAGE_ID>5 -0000; secure
+      - ahoy_visitor=e0702330-eac7-4454-8b9f-d432c62<PAGE_ID>d87d; path=/; expires=Tue,
+        03 Apr 20<PAGE_ID>8 23:32:<PAGE_ID>5 -0000; secure
+      X-Request-Id:
+      - 7a7<PAGE_ID>cdae-<PAGE_ID>f6e-4648-b9d<PAGE_ID>-<PAGE_ID>5b36dda2ddf
+      X-Runtime:
+      - '0.307343'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - "<PAGE_ID>.<PAGE_ID> vegur"
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"id":<PAGE_ID>76767,"token":"ab294a7a-f44e-4c5b-b887-6d3aef7c7335","subject":"Rails
+        Blocitoff: Utility Application With Rake Automation 8 - Displaying Time Remaining
+        discussion","updated_at":"20<PAGE_ID>6-04-03T09:46:<PAGE_ID>9.368-07:00","unread":false,"user_image":"https://cdn-photos.bloc.io/square/23<PAGE_ID>9452/IMG_0587.JPG?<PAGE_ID>453<PAGE_ID>62377","preview":"Actually,
+        you want to put that logic in the mod...","first_name":"Patrick","last_name":"Sarson","page":"<PAGE_ID>"},{"id":<PAGE_ID>8<PAGE_ID>25<PAGE_ID>,"token":"402f0584-<PAGE_ID>9a0-45cd-9e7c-3<PAGE_ID>fc27362854","subject":"Plan
+        for the Next 6 Weeks","updated_at":"20<PAGE_ID>6-04-03T07:47:06.687-07:00","unread":true,"user_image":"https://cdn-photos.bloc.io/square/2300855/Profile_Pic.jpg?<PAGE_ID>424739367","preview":"Starting
+        this morning :) Will do.  Thank you.","first_name":"Hailey","last_name":"Williams","page":"<PAGE_ID>"},{"id":<PAGE_ID>809<PAGE_ID>0,"token":"b229<PAGE_ID>3ac-4d78-4dd3-b<PAGE_ID>73-0a77cc4c0f3c","subject":"Rails
+        Kele API Client 7 - Checkpoint Submission discussion","updated_at":"20<PAGE_ID>6-04-03T06:<PAGE_ID>6:<PAGE_ID>2.8<PAGE_ID>2-07:00","unread":false,"user_image":"https://cdn-photos.bloc.io/square/23<PAGE_ID>327<PAGE_ID>/IMG_<PAGE_ID>06<PAGE_ID>.JPG?<PAGE_ID>452544633","preview":"Good
+        morning! \n\nI''m busy this morning but I''m d...","first_name":"hannah","last_name":"violet","page":"<PAGE_ID>"},{"id":<PAGE_ID>8<PAGE_ID>787,"token":"0a73<PAGE_ID>848-7<PAGE_ID>c0-4a9d-9fe0-c8b094ca239f","subject":"re:
+        Cesy","updated_at":"20<PAGE_ID>6-04-02T23:03:30.734-07:00","unread":false,"user_image":"https://cdn-photos.bloc.io/square/23<PAGE_ID>327<PAGE_ID>/IMG_<PAGE_ID>06<PAGE_ID>.JPG?<PAGE_ID>452544633","preview":"Length
+        Validations and ''description'' headings w...","first_name":"hannah","last_name":"violet","page":"<PAGE_ID>"},{"id":<PAGE_ID>8<PAGE_ID>658,"token":"c6fc<PAGE_ID>094-3850-4c27-80d0-59bc4<PAGE_ID>bcdf66","subject":"Rails
+        Foundation 37 - Rails: Authentication - Signing Up discussion","updated_at":"20<PAGE_ID>6-04-02T<PAGE_ID><PAGE_ID>:<PAGE_ID>9:<PAGE_ID>0.642-07:00","unread":false,"user_image":"https://cdn-photos.bloc.io/square/2333920/randfpic.jpg?<PAGE_ID>457396547","preview":"It
+        should since you are explicitly defining the...","first_name":"Katelyn","last_name":"Hertel","page":"<PAGE_ID>"},{"id":<PAGE_ID>8<PAGE_ID>723,"token":"d9030cdd-acfe-4<PAGE_ID>a<PAGE_ID>-97f8-229f8a63239<PAGE_ID>","subject":"Email
+        draft to Fastly guy ","updated_at":"20<PAGE_ID>6-04-02T<PAGE_ID><PAGE_ID>:<PAGE_ID>6:2<PAGE_ID>.936-07:00","unread":false,"user_image":"https://cdn-photos.bloc.io/square/2333920/randfpic.jpg?<PAGE_ID>457396547","preview":"K
+        -- \n\nThis is excellent! I have a few notes: \n...","first_name":"Katelyn","last_name":"Hertel","page":"<PAGE_ID>"},{"id":<PAGE_ID>8<PAGE_ID>36<PAGE_ID>,"token":"65e76e9<PAGE_ID>-<PAGE_ID>8cb-42ad-87aa-c3f4a4a955ac","subject":"Rails
+        Foundation 34 - Rails: Topics and Posts discussion","updated_at":"20<PAGE_ID>6-04-0<PAGE_ID>T<PAGE_ID>5:08:44.734-07:00","unread":false,"user_image":"https://cdn-photos.bloc.io/square/2333920/randfpic.jpg?<PAGE_ID>457396547","preview":"Localhost
+        will do it and running your tests. Lo...","first_name":"Katelyn","last_name":"Hertel","page":"<PAGE_ID>"},{"id":643<PAGE_ID><PAGE_ID>,"token":"0255e98e-4a98-420d-8d3b-4d3763ce5da9","subject":"Introduction
+        discussion - Hailey Williams","updated_at":"20<PAGE_ID>6-04-0<PAGE_ID>T09:38:23.739-07:00","unread":true,"user_image":"https://cdn-photos.bloc.io/square/2300855/Profile_Pic.jpg?<PAGE_ID>424739367","preview":"Hailey,\n\nHave
+        you filled out the freeze request...","first_name":"Hailey","last_name":"Williams","page":"<PAGE_ID>"},{"id":<PAGE_ID>8<PAGE_ID><PAGE_ID>65,"token":"c3<PAGE_ID>9882<PAGE_ID>-8a00-44<PAGE_ID>2-9382-c4c<PAGE_ID>f8ce<PAGE_ID>f4d","subject":"TrustyCMS","updated_at":"20<PAGE_ID>6-04-0<PAGE_ID>T03:55:40.286-07:00","unread":false,"user_image":"https://cdn-photos.bloc.io/square/23<PAGE_ID>327<PAGE_ID>/IMG_<PAGE_ID>06<PAGE_ID>.JPG?<PAGE_ID>452544633","preview":"Sounds
+        good! I''ve reserved Sunday afternoon to ...","first_name":"hannah","last_name":"violet","page":"<PAGE_ID>"},{"id":<PAGE_ID>76772,"token":"bc3d<PAGE_ID>76<PAGE_ID>-6cc3-4<PAGE_ID>f6-a828-a88987627c3c","subject":"Rails
+        Foundation - Programming Reinforcement: Checkpoint 2 discussion","updated_at":"20<PAGE_ID>6-04-0<PAGE_ID>T03:55:08.539-07:00","unread":false,"user_image":"https://cdn-photos.bloc.io/square/2333920/randfpic.jpg?<PAGE_ID>457396547","preview":"Weird!\n\nHere
+        is my solution, please double chec...","first_name":"Katelyn","last_name":"Hertel","page":"<PAGE_ID>"}],"count":678}'
+    http_version: 
+  recorded_at: Sun, 03 Apr 2016 23:32:16 GMT
+recorded_with: VCR 3.0.1

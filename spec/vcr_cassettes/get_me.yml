@@ -1,0 +1,171 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://www.bloc.io/api/v<PAGE_ID>/sessions
+    body:
+      encoding: UTF-8
+      string: email=<EMAIL>&password=<PASSWORD>
+    headers:
+      Accept-Encoding:
+      - gzip;q=<PAGE_ID>.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sun, 03 Apr 20<PAGE_ID>6 23:32:<PAGE_ID>3 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=3<PAGE_ID>536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - "<PAGE_ID>; mode=block"
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - '"532a<PAGE_ID>a56df45<PAGE_ID>54873cf<PAGE_ID>2a99cdc73bd"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - XSRF-TOKEN=Od6uYw%2B0mNEpD40YUws6KtfOy<PAGE_ID>0XTmVq5V9oEPbGji4%3D; path=/;
+        secure
+      - _BlocAlpha_session2=MklVdURrVlpCVHJzR0tuWXRNTFVqZTlpdndnNDhuQzVkeVlsTk<PAGE_ID>xR<PAGE_ID>RRVE5NcW92a<PAGE_ID>RuUG9nb0<PAGE_ID>jVlROWnFKU3ByWTNJN<PAGE_ID>NQV<PAGE_ID>pXYVJWQnF4RGZRak<PAGE_ID>IVHY2SGVhQy8<PAGE_ID>YjRKb2wxaXlkd0k3dVlsVmRlYzZRcGJGUVhoNk5nU0d3bVdFd2VROTNhbks<PAGE_ID>dzVQZlhGY0NFQnpGU0NiSG9qV<PAGE_ID>VSeTllZTVSS04yaFNWNjhjSWNWejZsQkM<PAGE_ID>QWhnY<PAGE_ID>JNLS<PAGE_ID>6NUNSV0o3cDR0MytTRXdWQjJ<PAGE_ID>RHpRPT0%3D--600d<PAGE_ID>8a647b30ac373b4<PAGE_ID>c0d8e6766<PAGE_ID>fc<PAGE_ID>f43a63;
+        path=/; secure; HttpOnly
+      - ahoy_visit=85050fd4-7<PAGE_ID>2<PAGE_ID>-4435-b330-5<PAGE_ID>cbd43d9d00; path=/;
+        expires=Mon, 04 Apr 20<PAGE_ID>6 03:32:<PAGE_ID>4 -0000; secure
+      - ahoy_visitor=30e7f082-b6<PAGE_ID><PAGE_ID>-47<PAGE_ID>d-a33b-eeefb204eed5;
+        path=/; expires=Tue, 03 Apr 20<PAGE_ID>8 23:32:<PAGE_ID>4 -0000; secure
+      X-Request-Id:
+      - 63cc4ec0-83dc-4d85-b92c-a8388f56a659
+      X-Runtime:
+      - '0.096934'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - "<PAGE_ID>.<PAGE_ID> vegur"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"auth_token":"eyJ0eXAiOiJKV<PAGE_ID>QiLCJhbGciOiJIUzI<PAGE_ID>NiJ9.eyJhcGlfa2V5IjoiMmM2NWMyNDUzZDU2NDU0NGE4YzFmOGNkZWFkMGUwYWIiLCJ<PAGE_ID>c2VyX2lkIjo2MjM5NjcsIm5hbWUiOiJCcml0dGFueSBNYXJ0aW4ifQ.z6_j2Xl9iHXn3PapaG5oSxWP_ujQjBwGXFb2rWPX5n8","user":{"id":<MENTOR_ID>,"email":"brittany.jill.martin@gmail.com","created_at":"20<PAGE_ID>3-<PAGE_ID>0-25T<PAGE_ID>4:55:02.967-07:00","updated_at":"20<PAGE_ID>6-04-03T<PAGE_ID>6:02:29.303-07:00","facebook_id":"<PAGE_ID>4203<PAGE_ID>52","first_name":"Brittany","last_name":"Martin","role":"mentor","stripe_customer_id":"cus_2oxcRgjchBMuGM","twitter_handle":"BrittJMartin","skype_handle":"Brit2003<PAGE_ID>3","github_handle":"Brit2003<PAGE_ID>3","time_zone":"Eastern
+        Time (US \u0026 Canada)","bio":"Brittany is the Product Marketing Manager
+        at a startup in San Francisco. Her job is to partner with college engineering
+        student leaders to make a software product that helps them succeed with hackathons,
+        career fairs and student organizations.\r\n\r\nShe just completed her MBA
+        at Robert Morris University. She recently moved to San Francisco from her
+        hometown, Pittsburgh, PA. She aspires to run her own startup one day and knows
+        San Francisco will be a great tech bootcamp. \r\n\r\nHer boyfriend is an independent
+        filmmaker and she has a lovable chocolate lab named after a James Bond actor.\r\n\r\nShe
+        wants to learn web development so she can compete at hackathons and have her
+        own startup one day. \r\n\r\nBlog: sfviapgh.com","photo_file_name":"unnamed.jpg","photo_content_type":"image/jpeg","photo_file_size":375043,"photo_updated_at":"20<PAGE_ID>5-0<PAGE_ID>-24T<PAGE_ID>6:3<PAGE_ID>:<PAGE_ID>8.003-08:00","tos":"accepted","send_new_message_emails":true,"referred_by_id":null,"slug":"brittany-martin","os":"Mac
+        OS X","last_seen_at":"20<PAGE_ID>6-04-03T<PAGE_ID>6:02:29.242-07:00","private_profile":true,"google_plus_id":"<PAGE_ID>080<PAGE_ID>0250028385663677","linkedin":null,"quota":5,"old_first_visit_id":null,"selected_enrollment_chain_id":2752,"phone_num":null,"title":null,"quota_limit":5,"dribbble_handle":null,"codecademy_handle":null,"student_profile_id":null,"birthdate":null,"gender":null,"first_visit_id":null,"codewars_handle":null}}'
+    http_version: 
+  recorded_at: Sun, 03 Apr 2016 23:32:14 GMT
+- request:
+    method: get
+    uri: https://www.bloc.io/api/v<PAGE_ID>/users/me
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - eyJ0eXAiOiJKV<PAGE_ID>QiLCJhbGciOiJIUzI<PAGE_ID>NiJ9.eyJhcGlfa2V5IjoiMmM2NWMyNDUzZDU2NDU0NGE4YzFmOGNkZWFkMGUwYWIiLCJ<PAGE_ID>c2VyX2lkIjo2MjM5NjcsIm5hbWUiOiJCcml0dGFueSBNYXJ0aW4ifQ.z6_j2Xl9iHXn3PapaG5oSxWP_ujQjBwGXFb2rWPX5n8
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sun, 03 Apr 20<PAGE_ID>6 23:32:<PAGE_ID>3 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=3<PAGE_ID>536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - "<PAGE_ID>; mode=block"
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - '"39eed09a32d<PAGE_ID>b5<PAGE_ID>3dffce970b27<PAGE_ID>4006"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - XSRF-TOKEN=8p9DR<PAGE_ID>zKYijMALTFTfwkYLj36mQDpjKw0RslmGqNDuY%3D; path=/;
+        secure
+      - _BlocAlpha_session2=ZkJxUGxjV0cwd3RrWGNrSmFnd3pNMGdBM2QyZWhsUVU0YWNPalFIblE0Z<PAGE_ID>lpUGJmeTNRWmJIcFlyQm9xeWZsR2t5bXByT<PAGE_ID>lOQmpNOW5FWXQ2TGlYa0J0V3pGZytuNm5TbnNsaGZDSXkvc2l3OVErM25abkgvQ3Y2NU8zdnFCNGJPRjV4OW<PAGE_ID>WNnYwK0VYa3VEU3RISlN2QXUwdVNPbi9yeU<PAGE_ID>KYytkaUd6MVVpS09yTU4yNUNlL<PAGE_ID>g4NFNNWHk5V<PAGE_ID>ByMlM0enJ2NUZ5dVVtQmVmb<PAGE_ID>NIZTlTVVRVQmJEdEhFM3JnNU8zRG<PAGE_ID>Qd2ppZDk0OHArTnFURFBodHVHMTRuOHlPUzBxVjJ3Zi9VZlV4dUd4VTlGbkc3RVE9PS0tbFNraVA3OGRqQWhkY0wwSUdtT0hzdz09--deb966987<PAGE_ID>9dfb26<PAGE_ID>2f09995a645bd<PAGE_ID>50c3e3dd0;
+        path=/; secure; HttpOnly
+      - ahoy_track=true; path=/; secure
+      - ahoy_visit=2<PAGE_ID>372<PAGE_ID>92-<PAGE_ID>c43-4d<PAGE_ID>7-93<PAGE_ID>4-5<PAGE_ID>69efd5dd60;
+        path=/; expires=Mon, 04 Apr 20<PAGE_ID>6 03:32:<PAGE_ID>4 -0000; secure
+      - ahoy_visitor=6e6efb96-e5b2-4c7<PAGE_ID>-980c-8605678893b9; path=/; expires=Tue,
+        03 Apr 20<PAGE_ID>8 23:32:<PAGE_ID>4 -0000; secure
+      X-Request-Id:
+      - 8db<PAGE_ID>83d7-a5e7-49fd-ac29-88abeb8<PAGE_ID>4e74
+      X-Runtime:
+      - '0.084523'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - "<PAGE_ID>.<PAGE_ID> vegur"
+    body:
+      encoding: UTF-8
+      string: '{"id":<MENTOR_ID>,"slug":"brittany-martin","name":"Brittany Martin","email":"brittany.jill.martin@gmail.com","title":null,"first_name":"Brittany","last_name":"Martin","facebook_id":"<PAGE_ID>4203<PAGE_ID>52","url":"/users/brittany-martin","bio":"Brittany
+        is the Product Marketing Manager at a startup in San Francisco. Her job is
+        to partner with college engineering student leaders to make a software product
+        that helps them succeed with hackathons, career fairs and student organizations.\r\n\r\nShe
+        just completed her MBA at Robert Morris University. She recently moved to
+        San Francisco from her hometown, Pittsburgh, PA. She aspires to run her own
+        startup one day and knows San Francisco will be a great tech bootcamp. \r\n\r\nHer
+        boyfriend is an independent filmmaker and she has a lovable chocolate lab
+        named after a James Bond actor.\r\n\r\nShe wants to learn web development
+        so she can compete at hackathons and have her own startup one day. \r\n\r\nBlog:
+        sfviapgh.com","course":{"id":<PAGE_ID>,"kind":"web_dev","length":<PAGE_ID>2,"name":"Rails
+        Web Development","default_payment_plan_group":"June20<PAGE_ID>4Normal","mentor_payment_multiple":<PAGE_ID>.0,"appointments_per_week":3,"created_at":"20<PAGE_ID>4-0<PAGE_ID>-<PAGE_ID>5T<PAGE_ID>0:40:37.660-08:00","updated_at":"20<PAGE_ID>5-07-<PAGE_ID>4T<PAGE_ID>5:5<PAGE_ID>:<PAGE_ID>6.388-07:00","director_id":537<PAGE_ID>04,"mentor_weekly_pay_rate":20000,"description":"Learn
+        how to build your own web applications with the popular Ruby on Rails framework.","occupation_name":"Web
+        Developer","prework":"---\n- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\n  title:
+        Make a Website\n  url: https://www.codecademy.com/en/skills/make-a-website\n  time:
+        3 hours\n  description: Learn the fundamentals of web development by building
+        a recent version\n    of Airbnb''s home page.\n- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\n  url:
+        https://www.codecademy.com/en/tracks/web\n  time: 7 hours\n  description:
+        Learn how to create websites by structuring and styling your pages\n    with
+        HTML and CSS.\n  title: HTML \u0026 CSS\n- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\n  url:
+        http://www.codecademy.com/en/tracks/ruby\n  time: 9 hours\n  description:
+        Complete Codecademy''s Ruby Track to learn the fundamentals of the Ruby\n    programming
+        language.\n  title: Codecademy''s Ruby Track\n- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\n  description:
+        Learn the fundamentals of building web apps with Ruby on Rails.\n  url: https://www.codecademy.com/en/learn/learn-rails\n  time:
+        5 hours\n  title: Codecademy''s Ruby on Rails Track\n- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\n  description:
+        Learn how to use the command line to manipulate data and automate tasks.\n  url:
+        https://www.codecademy.com/en/learn/learn-the-command-line\n  time: <PAGE_ID>
+        hour\n  title: Introduction to the Command Line\n- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\n  description:
+        A quick introduction to Git and GitHub.\n  url: https://try.github.io/\n  time:
+        <PAGE_ID>5 minutes\n  title: Try GitHub\n","default_goal_options":[{"description":"To
+        get a job as a professional web developer.","keyword":"job"},{"description":"To
+        become a freelance web developer.","keyword":"freelance"},{"description":"To
+        use my new skills as an entrepreneur.","keyword":"entrepreneur"},{"description":"To
+        gain a better understanding of and appreciation for coding and the web.","keyword":"learning"},{"description":"To
+        become better at my existing job.","keyword":"career_education"}],"level":"full","track":false,"roadmap_count":<PAGE_ID>},"current_enrollment":{"id":4<PAGE_ID>0,"created_at":"20<PAGE_ID>3-<PAGE_ID>0-25T<PAGE_ID>6:08:37.803-07:00","updated_at":"20<PAGE_ID>5-08-<PAGE_ID>0T<PAGE_ID>2:26:00.088-07:00","cohort_id":null,"status":"active","mentor_id":<PAGE_ID>95,"deleted":false,"onboarded":true,"dropped_out_at":null,"birth_date":"20<PAGE_ID>3-<PAGE_ID><PAGE_ID>-03T<PAGE_ID>6:00:00.000-08:00","roadmap_id":2,"course_end_date":"20<PAGE_ID>4-0<PAGE_ID>-26T<PAGE_ID>6:00:00.000-08:00","course_start_date":"20<PAGE_ID>3-<PAGE_ID><PAGE_ID>-03T<PAGE_ID>6:00:00.000-08:00","death_date":null,"sent_get_started_email":false,"course_id":<PAGE_ID>,"old_visit_id":null,"certified":false,"locked_message":"","latest":true,"chain_id":2752,"roadmap_ref":"878<PAGE_ID>bb68-d64d-458b-957a-b3b9ddb27e48|0","visit_id":null},"quota":5,"quota_limit":5,"type":"Mentor","status":"active","image_src":"https://cdn-photos.bloc.io/original/<MENTOR_ID>/unnamed.jpg?<PAGE_ID>422<PAGE_ID>45878","large_image_src":"https://cdn-photos.bloc.io/large/<MENTOR_ID>/unnamed.jpg?<PAGE_ID>422<PAGE_ID>45878","created_at":"20<PAGE_ID>3-<PAGE_ID>0-25
+        <PAGE_ID>4:55:02 -0700","facebook_profile_picture_url":"http://graph.facebook.com/<PAGE_ID>4203<PAGE_ID>52/picture?width=<PAGE_ID><PAGE_ID>0\u0026height=<PAGE_ID><PAGE_ID>0","github_handle":"Brit2003<PAGE_ID>3","codecademy_handle":null,"time_zone":{"name":"Eastern
+        Time (US \u0026 Canada)","string":"(GMT-05:00) Eastern Time (US \u0026 Canada)","identifier":"America/New_York"}}'
+    http_version: 
+  recorded_at: Sun, 03 Apr 2016 23:32:14 GMT
+recorded_with: VCR 3.0.1

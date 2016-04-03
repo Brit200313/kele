@@ -1,0 +1,76 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://www.bloc.io/api/v<PAGE_ID>/sessions
+    body:
+      encoding: UTF-8
+      string: email=<EMAIL>&password=<PASSWORD>
+    headers:
+      Accept-Encoding:
+      - gzip;q=<PAGE_ID>.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sun, 03 Apr 20<PAGE_ID>6 23:32:<PAGE_ID>3 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=3<PAGE_ID>536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - "<PAGE_ID>; mode=block"
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - '"532a<PAGE_ID>a56df45<PAGE_ID>54873cf<PAGE_ID>2a99cdc73bd"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - XSRF-TOKEN=rbuK5KMeyeEJJpgI9Ifa9J9ZxE2<PAGE_ID>zgQ8zErzHeoT%2FIo%3D; path=/;
+        secure
+      - _BlocAlpha_session2=emZ3MVhQdFdheDBKUWFnYm40VTFGNnJyUFArK<PAGE_ID>VwNHR3RTBQVlpHODczYlZURW<PAGE_ID>rRk0zeTBFSGpGdnByOFRicFlPazlETXI3YW9idHhMRDZYd2YwV2VhVWIzN0JFNHdKNk9CV2liTkE0NkdPYnFhQmh0dXNBMk8<PAGE_ID>SHM0VTQ0cVg<PAGE_ID>M<PAGE_ID>JjY<PAGE_ID>BJMVY4WmRCd2VzcjJ2TDZ5eSs<PAGE_ID>b0<PAGE_ID>RVXNyRElSZWRyUktnZk<PAGE_ID>sNTNQWDQvTUJsRzFuMHhoWFFGU2tLLS<PAGE_ID>ObENOZTlVeHFSeW<PAGE_ID>rOFhkbm<PAGE_ID>4a<PAGE_ID>FRPT0%3D--26ee58e309888d5ed4b6d360bfbd<PAGE_ID>3d5b9e26276;
+        path=/; secure; HttpOnly
+      - ahoy_visit=8a2b<PAGE_ID>b70-277<PAGE_ID>-408c-9ca0-78e3bc<PAGE_ID>ac2f9; path=/;
+        expires=Mon, 04 Apr 20<PAGE_ID>6 03:32:<PAGE_ID>4 -0000; secure
+      - ahoy_visitor=c9437c3f-4<PAGE_ID>40-45<PAGE_ID><PAGE_ID>-85f8-e78<PAGE_ID>aba33bcb;
+        path=/; expires=Tue, 03 Apr 20<PAGE_ID>8 23:32:<PAGE_ID>4 -0000; secure
+      X-Request-Id:
+      - "<PAGE_ID>e8ae6e6-3bec-43d5-bca5-33962<PAGE_ID>04ea85"
+      X-Runtime:
+      - '0.086833'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - "<PAGE_ID>.<PAGE_ID> vegur"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"auth_token":"eyJ0eXAiOiJKV<PAGE_ID>QiLCJhbGciOiJIUzI<PAGE_ID>NiJ9.eyJhcGlfa2V5IjoiMmM2NWMyNDUzZDU2NDU0NGE4YzFmOGNkZWFkMGUwYWIiLCJ<PAGE_ID>c2VyX2lkIjo2MjM5NjcsIm5hbWUiOiJCcml0dGFueSBNYXJ0aW4ifQ.z6_j2Xl9iHXn3PapaG5oSxWP_ujQjBwGXFb2rWPX5n8","user":{"id":<MENTOR_ID>,"email":"brittany.jill.martin@gmail.com","created_at":"20<PAGE_ID>3-<PAGE_ID>0-25T<PAGE_ID>4:55:02.967-07:00","updated_at":"20<PAGE_ID>6-04-03T<PAGE_ID>6:02:29.303-07:00","facebook_id":"<PAGE_ID>4203<PAGE_ID>52","first_name":"Brittany","last_name":"Martin","role":"mentor","stripe_customer_id":"cus_2oxcRgjchBMuGM","twitter_handle":"BrittJMartin","skype_handle":"Brit2003<PAGE_ID>3","github_handle":"Brit2003<PAGE_ID>3","time_zone":"Eastern
+        Time (US \u0026 Canada)","bio":"Brittany is the Product Marketing Manager
+        at a startup in San Francisco. Her job is to partner with college engineering
+        student leaders to make a software product that helps them succeed with hackathons,
+        career fairs and student organizations.\r\n\r\nShe just completed her MBA
+        at Robert Morris University. She recently moved to San Francisco from her
+        hometown, Pittsburgh, PA. She aspires to run her own startup one day and knows
+        San Francisco will be a great tech bootcamp. \r\n\r\nHer boyfriend is an independent
+        filmmaker and she has a lovable chocolate lab named after a James Bond actor.\r\n\r\nShe
+        wants to learn web development so she can compete at hackathons and have her
+        own startup one day. \r\n\r\nBlog: sfviapgh.com","photo_file_name":"unnamed.jpg","photo_content_type":"image/jpeg","photo_file_size":375043,"photo_updated_at":"20<PAGE_ID>5-0<PAGE_ID>-24T<PAGE_ID>6:3<PAGE_ID>:<PAGE_ID>8.003-08:00","tos":"accepted","send_new_message_emails":true,"referred_by_id":null,"slug":"brittany-martin","os":"Mac
+        OS X","last_seen_at":"20<PAGE_ID>6-04-03T<PAGE_ID>6:02:29.242-07:00","private_profile":true,"google_plus_id":"<PAGE_ID>080<PAGE_ID>0250028385663677","linkedin":null,"quota":5,"old_first_visit_id":null,"selected_enrollment_chain_id":2752,"phone_num":null,"title":null,"quota_limit":5,"dribbble_handle":null,"codecademy_handle":null,"student_profile_id":null,"birthdate":null,"gender":null,"first_visit_id":null,"codewars_handle":null}}'
+    http_version: 
+  recorded_at: Sun, 03 Apr 2016 23:32:14 GMT
+recorded_with: VCR 3.0.1
